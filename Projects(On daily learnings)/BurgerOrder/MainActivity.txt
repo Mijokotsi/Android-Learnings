@@ -1,3 +1,5 @@
+// This is a Kotlin code
+
 package com.example.firstandroid
 
 import androidx.appcompat.app.AppCompatActivity
