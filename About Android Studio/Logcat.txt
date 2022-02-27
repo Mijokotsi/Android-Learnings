@@ -1,0 +1,22 @@
+About Logcat:
+
+Logcat in an Android Studio tool that helps you in finding several errors you encounter in your program.
+         --> It contains various logs that have something to do with your app in some or the other way.
+
+             Types of Logs in Logcat:
+                 (i) Verbose
+                 (ii) Debug   --> Mostly used by the developers
+                 (iii) Info 
+                     and some other (not very imp.)
+
+So to print anything on the logcat we can use println("Message") statement, But inorder to follow the convention and also it is better to use the functions that has been created to use Logcat.
+Following is the syntax for using logcat functions in Android Framework:
+                 
+                       Log.d(tag: "Contains from where(which file) your message is being pushed", msg:"Your message")    -->  d stands for debug log
+                       Log.v(tag: "Contains from where(which file) your message is being pushed", msg:"Your message")    -->  v stands for verbose log
+                       Log.e(tag: "Contains from where(which file) your message is being pushed", msg:"Your message")    -->  e stands for error log
+                       Log.i(tag: "Contains from where(which file) your message is being pushed", msg:"Your message")    -->  i stands for info log
+        
+          So, using these statements you specify that in which log you message will print (Verbose/Debug/Info etc etc.)
+
+You can find the Logcat option at the bootom of you Android Studio on the same line containing build, run toggle.

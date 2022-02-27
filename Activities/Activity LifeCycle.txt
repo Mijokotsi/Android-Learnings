@@ -1,0 +1,31 @@
+ACTIVITY LIFECYCLE - 
+
+Activity lifecycle is basically a journey (life) of an activity throughout the process of its execution.
+So, in an activity's lifecycle there are in total 7 stages:
+
+- - - - - - - - -     ACTIVITY STARTS    - - - - - - - - - - - -
+
+1. OnCreate() function ->    As soon as the activity gets initialised, this function is called and here we instantiate all our objects or define our variables we need for out Activity functioning as it starts.
+
+2. OnStart() function ->    When the Activity becomes visible to the user or you can say when the activity is displayed on the screen, this function is called.
+
+3. OnResume() function ->    Whenever the user interacts with the activity i.e. the activity is in the hault position as it is communicating with the user, this function is called. 
+At this point the activity is on the top of the Activity Stack.
+
+- - - - - - - - - -     ACTIVITY IS RUNNING SUCCESSFULLY    - - - - - - - - - - - - 
+
+4. OnPause() function ->     Whenever the activity loses the foreground i.e. the main screen, this function gets called.
+But remember it is still partially visible on the screen (it is not the main app running but visible (still in the stack)).
+E.g. When we switch between multiple apps i.e. from APP_1 to APP_2, APP_1 loses the foregroundstate and ant hat moment onPause() function is called. Though we still can use APP_1 by returning to it.
+
+ 5. OnStop() function ->     Whenever a function is no longer visible to the user, this function is called. At this time the app has fully disappeard from the screen, so onStop() function is called.
+
+6. OnDestroy() function ->      Whenever an Activity finishes its job or closed by the user/system, the activity gets popped out of the stack, and thus this function is called.
+
+7. OnRestart() ->      When your activity is on OnStop() function i.e. have lost the foreground and then the user switches back to this activity, restarts it, then this function is called.
+
+- - - - - - - - - - -      ACTIVITY IS DESTROYED, SHUTS DOWN      - - - - - - - - - - - - - -
+
+NOTE:    onPause() function is guaranteed to be called for every activity but onStop() isn't, so of you want to store any kind of data store in in the pause state, else your data leakage is possible.
+
+I've provided a pictorial representation of Activity lifecycle (Google Image)  and one picture in which I've explained the steps with the diagram.

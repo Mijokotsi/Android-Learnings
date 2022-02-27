@@ -1,0 +1,47 @@
+All of the following notes is after the installation process.
+
+On the left hand side in Android Studio, you'll get the following folders:
+
+1. Manifest Folder:
+       This file contains all the basic/general app configurations about your app.
+              -> Every Android App needs this file
+       Filename : AndroidManifest.xml  --> It is an XML file
+
+       It contains all the components we use for our app
+              E.g. The permissions your app takes from the user/system
+
+2. Java Folder:
+       This folder contains our Main activity file(code) where we basically define all
+       code and logics to solve some problem
+
+3. Java (generated) Folder: 
+       This folder contains the auto generated Java codes that Android Studio puts in there, its not of much importance for us.
+
+4. res Folder: 
+       Here res stands for resource, this folder contains all the resources you've used to build your app  ranging from aapp layouts, colours to the tools  you've used to enhance        functionality of your app look.
+
+       Inside this resource folder we've following sub-folders:
+    
+       (i) Drwable: Contains all the images, icons and graphical configuration files you're using in your app
+
+       (ii) Layout: Contains the basic layout code for your app, as it decribes how your app will look.
+ 
+       (iii) Mipmap: This is used to contains details about your main app icon.
+                            --> So this is useful when you're goin to publish you app
+
+       (iv) Values: It have following sub-folders
+                
+                 (a) Colours: XML file that contains various colours that our app uses.
+                 (b) Strings: XML file containing global strings (some fixed strings(names) that would be diplayed on your app like on buttons, or some screen headings) 
+                 (c) Themes: XML file, contains the theme ideas you've used in your app
+
+5. Gradle folder:
+        Gradle is basically the build system for Android
+        It gather all the components you used before, and bind them together to process and run your app.
+        It also have 2 sub-files:
+             (A) build.gradle: Contains general build configurations for the Android Studio like all the versions of the components you're using for your app. 
+
+             (B) build.gradle(app): Contains the codes that can affect your app directly at the build level (More important for us.
+
+        So, every time you make changes to the gradle file, you need to sync it inorder to save the entire changes to your system(app config).
+        The Gradle sync toggle appears on the top of you Android Studio.

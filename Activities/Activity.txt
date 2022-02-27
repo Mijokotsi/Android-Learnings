@@ -1,0 +1,23 @@
+ACTIVITY - 
+
+Activity is basically a single screen of our application(app). or nothing more than a Kotlin class.
+So,
+As soon as we create a new Activity, a function called OnCreate() is called inheriting AppCompatActivity() class.
+
+-> AppCompatActivity() is a class in Android framework that describes everything about an Activity. (Basic meaning)
+
+As Oncreate function is always called whenever an Activity is created so it is often called/considered as the main function of the Android (Starting point of any application).
+
+
+ACTIVITY STACK - 
+
+This is an important concept to learn for defining or creating Activities. Now, whenever a new Activity is created it is pushed into the Activity Stack.
+
+Just like the simple elements, in this stack Activities are pushed as they get called, so this is called an Activity Stack.
+
+And so, everytime an Activity is created, it goes onto the top of the stack (Activity Stack). Then similarly as we goes back from the current activity i.e. presses back button (finishes the present Activity), it gets popped out of the Activity Stack.
+I've provided the image of the Activity stack, you can check it for visual understanding.
+
+So this is the entire work going on in the Activity Stack.
+
+
