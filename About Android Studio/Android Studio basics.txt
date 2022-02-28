@@ -22,7 +22,7 @@ On the left hand side in Android Studio, you'll get the following folders:
 
        Inside this resource folder we've following sub-folders:
     
-       (i) Drwable: Contains all the images, icons and graphical configuration files you're using in your app
+       (i) Drawable: Contains all the images, icons and graphical configuration files you're using in your app
 
        (ii) Layout: Contains the basic layout code for your app, as it decribes how your app will look.
  
