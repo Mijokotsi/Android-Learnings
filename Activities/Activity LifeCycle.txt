@@ -16,7 +16,7 @@ At this point the activity is on the top of the Activity Stack.
 
 4. OnPause() function ->     Whenever the activity loses the foreground i.e. the main screen, this function gets called.
 But remember it is still partially visible on the screen (it is not the main app running but visible (still in the stack)).
-E.g. When we switch between multiple apps i.e. from APP_1 to APP_2, APP_1 loses the foregroundstate and ant hat moment onPause() function is called. Though we still can use APP_1 by returning to it.
+E.g. When we switch between multiple apps i.e. from APP_1 to APP_2 (We go to the recent app used list), activity loses the foregroundstate and at that moment onPause() function is called. Though we still can use APP_1 by returning to it.
 
  5. OnStop() function ->     Whenever a function is no longer visible to the user, this function is called. At this time the app has fully disappeard from the screen, so onStop() function is called.
 
