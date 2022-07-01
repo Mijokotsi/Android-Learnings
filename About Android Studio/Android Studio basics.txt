@@ -41,7 +41,7 @@ On the left hand side in Android Studio, you'll get the following folders:
         It also have 2 sub-files:
              (A) build.gradle: Contains general build configurations for the Android Studio like all the versions of the components you're using for your app. 
 
-             (B) build.gradle(app): Contains the codes that can affect your app directly at the build level (More important for us.
+             (B) build.gradle(app): Contains the codes that can affect your app directly at the build level (More important for us).
 
         So, every time you make changes to the gradle file, you need to sync it inorder to save the entire changes to your system(app config).
         The Gradle sync toggle appears on the top of you Android Studio.
