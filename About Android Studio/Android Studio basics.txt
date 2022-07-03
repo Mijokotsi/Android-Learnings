@@ -1,4 +1,4 @@
-All of the following notes is after the installation process.
+All of the following notes are after the installation process.
 
 On the left hand side in Android Studio, you'll get the following folders:
 
@@ -36,7 +36,7 @@ On the left hand side in Android Studio, you'll get the following folders:
                  (c) Themes: XML file, contains the theme ideas you've used in your app
 
 5. Gradle folder:
-        Gradle is basically the build system for Android
+        Gradle is basically the build system for Android, so it is the most important file in your Android Studio, without this you won't be able to build you app.
         It gather all the components you used before, and bind them together to process and run your app.
         It also have 2 sub-files:
              (A) build.gradle: Contains general build configurations for the Android Studio like all the versions of the components you're using for your app. 
